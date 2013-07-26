@@ -10,11 +10,11 @@ gem 'haml-rails',    '~> 0.4.0'
 gem 'coffee-rails',  '~> 4.0.0'
 gem 'formtastic',    '~> 2.2.1'
 gem 'uglifier',      '>= 1.3.0'
+gem 'jbuilder',      '~> 1.2'
 gem 'jquery-rails'
 gem 'turbolinks'
-
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 1.2'
+gem 'carrierwave'
+gem 'rmagick'
 
 group :doc do
   gem 'sdoc', require: false
